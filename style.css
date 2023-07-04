@@ -1,0 +1,224 @@
+
+/* ============================================================== 
+    # Contact form
+=================================================================== */
+
+.contact-area {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  
+
+  
+  .contact-style-one-info li {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .contact-style-one-info li i {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: black;
+    border-radius: 50%;
+    color: green;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  
+  .contact-style-one-info li:nth-child(2) i {
+    background: gray;
+  }
+  
+  .contact-style-one-info li:nth-child(3) i {
+    background: var(--dark);
+  }
+  
+  .contact-style-one-info li p {
+    margin: 0;
+  }
+  
+  .contact-style-one-info li h5 {
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .contact-style-one-info li a {
+    font-weight: 400;
+    color: #000000 !important;
+  }
+  
+  .contact-style-one-info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    line-height: 1;
+  }
+  
+  .contact-style-one-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 50px;
+  }
+  
+  .contact-form-style-one {
+    box-shadow: 0px 15px 60px -10px rgb(109 117 143 / 33%);
+    padding: 10px 50px;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    background: rgb(210, 205, 205);
+  }
+  
+  .contact-form-style-one .illustration {
+    position: absolute;
+    left: -130px;
+    bottom: -60px;
+    z-index: -1;
+  }
+  
+  .contact-form-style-one .sub-heading {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form-style-one .heading {
+    margin-bottom: 30px;
+  }
+  
+  .contact-form-style-one input,
+  .contact-form-style-one textarea {
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border: none;
+    background: #f8f8f8;
+    font-size: 14px;
+  }
+  
+  .contact-form-style-one textarea {
+    min-height: 180px;
+  }
+  
+  .contact-form-style-one button {
+    display: inline-block;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all 0.35s ease-in-out;
+    overflow: hidden;
+    border-radius: 6px;
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+    font-size: 17px;
+    letter-spacing: 0;
+    position: relative;
+    z-index: 1;
+    color: var(--white);
+    border: none;
+    background: var(--color-primary);
+    padding: 16px 52px;
+  }
+  
+  .contact-form-style-one button::after {
+    position: absolute;
+    top: inherit;
+    right: inherit;
+    bottom: inherit;
+    left: -5%;
+    content: "";
+    height: 150px;
+    width: 115%;
+    z-index: -1;
+    background-color: var(--color-secondary);
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    -webkit-transform: translateY(-45%) skew(25deg) scale(0);
+    transform: translateY(-45%) skew(25deg) scale(0);
+  }
+  
+  .contact-form-style-one button:hover::after {
+    -webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
+    transform: translateY(-45%) skew(25deg) scale(1.2);
+  }
+  
+  .contact-form-style-one button:hover {
+    color: var(--color-heading);
+  }
+  
+  img.loader {
+    margin-left: 8px;
+  }
+  
+  .contact-style-one-info h2 span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .contact-style-one-info h2 span svg {
+    position: absolute;
+    top: auto;
+    left: 50%;
+    width: 80%;
+    height: 100%;
+    transform: translate(-50%);
+    overflow: visible;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .contact-style-one-info h2 span path {
+    stroke: var(--color-secondary);
+    stroke-width: 10;
+    stroke-dasharray: 1500;
+    fill: none;
+  }
+  
+  .maps-area iframe {
+    min-height: 550px;
+    margin-bottom: -10px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .error-box h1 {
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 150px;
+    margin-bottom: 30px;
+  }
+  
+  .error-box h2 {
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .alert-notification {
+    margin-top: 30px;
+  }
+  
+  .alert-notification .alert {
+    margin: 0;
+  }
+  
+  .alert-notification h3 {
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: red;
+  }
+  
+  .alert-notification p {
+    margin: 0;
+  }
+  
+  .alert-notification p strong {
+    color: #232323;
+  }
+  
+  .alert-notification .alert.alert-success h3 {
+    color: green;
+  }
